@@ -87,11 +87,11 @@
     "mbrsiteDomain": "lawinkorea",
     "imageResize": true,
     "robotsSwitcher": true,
-    "sitemapSwitcher": false,
+    "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": false,
+    "siteUrl": "http://lawinkorea.com",
     "cookiesAlert": {
-      "customDialogSelector": false,
+      "customDialogSelector": true,
       "colorText": "#424a4d",
       "colorBg": "#eaeff1",
       "colorButton": "",
@@ -105,14 +105,15 @@
     "gdpr": {
       "colorText": "#a7a7a7",
       "colorLink": "#149dcc",
-      "underlineLink": false,
+      "underlineLink": true,
       "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     },
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "robotsText": "User-agent: *",
     "publishChangesOnly": false,
     "uniqCompNum": 0,
     "versionPublish": "5.3.5",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GD4E3SY1QT\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GD4E3SY1QT');\n</script>"
   },
   "pages": {
     "index.html": {
